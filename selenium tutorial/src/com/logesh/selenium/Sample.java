@@ -41,8 +41,7 @@ public class Sample {
 		
 		js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 		
-		
-		
+		driver.switchTo().window(list.get(0));		
 	}
 
 }
