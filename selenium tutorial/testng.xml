@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Testngdemo1">
+    <classes>
+      <class name="TESTNG.Attributes"/>
+      <class name="TESTNG.Groups"/>
+      <class name="TESTNG.Seconddemo"/>
+      <class name="TESTNG.Login1"/>
+      <class name="TESTNG.Demorun"/>
+      <class name="TESTNG.Allannotations"/>
+      <class name="TESTNG.Sample"/>
+      <class name="TESTNG.BASIC"/>
+      <class name="TESTNG.NewTest123"/>
+      <class name="TESTNG.NewTest"/>
+      <class name="TESTNG.Hardassert"/>
+    </classes>
+  </test> <!-- Testngdemo1 -->
+</suite> <!-- Suite -->
